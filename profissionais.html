@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <title>Profissionais/SGCM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -26,7 +27,118 @@
         </ul>
 
     </nav>
-    <main>main</main>
+    <main>
+        <form action="#">
+            <label for="nome">Nome</label>
+            <input type="text" name="Nome" id="Nome" required>
+            <label for="registroConselho">Registo</label>
+            <input type="text" name="registroConselho" id="registroConselho" required>
+            <label for="relefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone" required>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <label for="Especialidade">Especialidade</label>
+            <select name="Especialidade" id="Especialidade">
+                <option value=""></option>
+                <option value="1">Junior</option>
+                <option value="2">Pleno</option>
+                <option value="3">Senior</option>
+            </select>
+            <label for="Unidade">Unidade</label>
+            <select name="Unidade" id="Unidade">
+                <option value=""></option>
+                <option value="1">Unidade 1</option>
+                <option value="2">Unidade 2</option>
+                <option value="3">Unidade 3</option>
+            </select>
+            <input type="button" value="Cancelar">
+            <input type="submit" value="Salvar">
+
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Registro</th>
+                    <th>Especialidade</th>
+                    <th>Unidade</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>
+                        <a href="javascript:void(0)">Editar</a>
+                        <a href="javascript:void(0)">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>
+                        <a href="javascript:void(0)">Editar</a>
+                        <a href="javascript:void(0)">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td><a href="javascript:void(0)">Editar</a><a href="javascript:void(0)">Excluir</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>
+                        <a href="javascript:void(0)">Editar</a>
+                        <a href="javascript:void(0)">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>x</td>
+                    <td>
+                        <a href="javascript:void(0)">Editar</a>
+                        <a href="javascript:void(0)">Excluir</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Total de registros: 5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
     <footer>
         <span>SGCM - Sistema de gerênciamento de Clinica Médica</span>
         <span>Suporte técnico: (68) 555-555 | <a href="mailto">suporte.agcm@ufac.br</a></span>
